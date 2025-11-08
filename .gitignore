@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# Audio files (optional - uncomment if you don't want to track demo audio)
+# demo/audio/*.wav
+# demo/audio/*.mp3
+# demo/audio/*.m4a
+
+# Credentials
+credentials.json
+token.json
+
+# Whisper model cache
+~/.cache/whisper/
